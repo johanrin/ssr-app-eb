@@ -1,12 +1,12 @@
-# ssr-app-eb - How to deploy your server-side React app with AWS Elastic Beanstalk
+# ssr-app-eb - I deployed a server-side React app with AWS Elastic Beanstalk. Here’s what I learned.
 
-I'm doing the #AWSCertified challenge and I decided to write about my journey. The purpose is to share what I learn and also the pain points I encounter during the process.
+I’m doing the #AWSCertified challenge and I decided to write about my journey. The purpose is to share what I learn and also the pain points I encounter during the process.
 
 During this Easter weekend, I decided to explore AWS Elastic Beanstalk.
 
-The objective is to deploy a basic React app using Elastic Beanstalk command line interface (EB CLI). The experience should be simple as possible.
+My objective was to deploy a basic React app using Elastic Beanstalk command line interface (EB CLI). The experience had to be simple as possible.
 
-I decided to use [Razzle](https://github.com/jaredpalmer/razzle), a server-rendering framework, for this experiment because I think it's more flexible than Next.js. But you can easily adapt the commands explained below for your framework.
+I decided to use [Razzle](https://github.com/jaredpalmer/razzle), a server-rendering framework, for this experiment because I think it's more flexible than Next.js. But we can easily adapt the commands explained below for other frameworks.
 
 The repository is divided in two parts:
 
