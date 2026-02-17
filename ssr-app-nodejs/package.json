@@ -10,8 +10,8 @@
     "eb:prod": "npm run build && npm run start:prod"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "razzle": "^3.0.0",
+    "express": "^4.22.1",
+    "razzle": "^3.4.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2"
